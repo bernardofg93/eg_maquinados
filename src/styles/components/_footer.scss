@@ -1,0 +1,97 @@
+
+.grid__footer {
+  display: grid;
+  grid-template-columns: repeat(minmax(auto-fit, 1fr));
+}
+
+.txt-subscribe {
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.news {
+    color: $primary;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .grid__footer {
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+    } 
+}
+
+.bx__footer-links {
+    background-color: #100056;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.bx__footer-links ul {
+    list-style: none;
+}
+
+.bx__footer-links ul li {
+    color: #fff;
+
+}
+
+.bx__footer-subscribe {
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subcribe__bx {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .subcribe__bx {
+        width: 70%;
+        height: 100%;
+    }
+}
+
+.align__bx-footer {
+    display: grid;
+    height: 70%;
+}
+
+.logoFooter {
+    width: 20%;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        height: 60vh;
+    }   
+}
+
+.footer__txt-2021 {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.footer form {
+    position: relative;
+}
+
+.footer form button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: $primary;
+    font-size: 12px;
+
+}
